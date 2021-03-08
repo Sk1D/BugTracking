@@ -1,0 +1,8 @@
+﻿<div>
+    <h2>Добавление нового project</h2>
+    <project-form [(project)]="project"></project-form>
+    <div class="form-group">
+        <input type="button" value="Сохранить" (click)="save()" class="btn btn-success" />
+        <a routerLink="/" class="btn btn-warning">Отмена</a>
+    </div>
+</div>

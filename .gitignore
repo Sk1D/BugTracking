@@ -3,3 +3,19 @@
 ################################################################################
 
 /.vs
+/BugTrackingApp/.vs/BugTrackingApp/v16
+/BugTrackingApp/BugTrackingApp/bin/Debug/netcoreapp3.1
+/BugTrackingApp/BugTrackingApp/obj
+/BugTrackingApp/.vs/BugTrackingApp
+/BugTrackingApp/BugTrackingApp/ClientApp/node_modules
+/BugTrackingApp/BugTrackingApp.Domain.Core/bin/Debug/netcoreapp3.1
+/BugTrackingApp/BugTrackingApp.Domain.Core/obj
+/BugTrackingApp/BugTrackingApp.Domain.Interfaces/bin/Debug/netcoreapp3.1
+/BugTrackingApp/BugTrackingApp.Domain.Interfaces/obj
+/BugTrackingApp/BugTrackingApp.Infrastructure.Business/bin/Debug/netcoreapp3.1
+/BugTrackingApp/BugTrackingApp.Infrastructure.Business/obj
+/BugTrackingApp/BugTrackingApp.Infrastructure.Data/bin/Debug/netcoreapp3.1
+/BugTrackingApp/BugTrackingApp.Infrastructure.Data/obj
+/BugTrackingApp/BugTrackingApp.Services.Interfaces/bin/Debug/netcoreapp3.1
+/BugTrackingApp/BugTrackingApp.Services.Interfaces/obj
+/BugTrackingApp/BugTrackingApp/ClientApp/dist

@@ -1,0 +1,33 @@
+﻿<!--<h2>Список проектов</h2>
+<table class="table table-striped">
+    <tbody>
+        <tr *ngFor="let p of projects">
+            <td><a [routerLink]="['project', p.id]" class="nav-link">{{p?.name}}</a></td>
+        </tr>
+    </tbody>
+</table>-->
+
+<div>
+    <a routerLink="/create" class="nav-link">Добавить</a>
+</div>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <td>ID</td>
+        <td>Project</td>
+        <!--<td>Цена</td>-->
+        <td></td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let p of projects">
+        <td>{{p?.id}}</td>
+        <td>{{p?.name}}</td>
+        <!--<td>{{p?.price}}</td>-->
+        <td>
+            <a [routerLink]="['edit', p.id]" class="btn btn-sm btn-primary">Изменить</a>
+            <button (click)="delete(p.id)" class="btn btn-sm btn-danger">Удалить</button>
+        </td>
+    </tr>
+    </tbody>
+</table>

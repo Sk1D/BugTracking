@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BugTrackingApp.Domain.Interfaces\BugTrackingApp.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\BugTrackingApp.Services.Interfaces\BugTrackingApp.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
